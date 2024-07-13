@@ -11,6 +11,7 @@ namespace newexample
             Console.WriteLine("examples in C#");
             Console.WriteLine(Add(3, 5));
             Console.WriteLine(Subtract(10, 4));
+            Console.WriteLine(Multiply(7, 6));
         }
 
         // first fun. add two numbers
@@ -25,9 +26,11 @@ namespace newexample
             return a - b;
         }
 
-
-
-
+        //multiply two numbers
+        static int Multiply(int a, int b)
+        {
+            return a * b;
+        }
 
     }
 }
