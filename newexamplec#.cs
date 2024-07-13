@@ -10,6 +10,7 @@ namespace newexample
         {
             Console.WriteLine("examples in C#");
             Console.WriteLine(Add(3, 5));
+            Console.WriteLine(Subtract(10, 4));
         }
 
         // first fun. add two numbers
@@ -17,6 +18,13 @@ namespace newexample
         {
             return a + b;
         }
+
+        //subtract the second number from the first
+        static int Subtract(int a, int b)
+        {
+            return a - b;
+        }
+
 
 
 
